@@ -15,3 +15,11 @@ git status
 ```
 
 Muestra qué archivos han cambiado, cuáles están en staging y cuáles no están siendo rastreados.
+
+Agregar archivos al staging
+
+```bash
+git add archivo.txt          # Agregar un archivo específico
+git add .                    # Agregar todos los archivos modificados
+git add *.js                 # Agregar todos los archivos .js
+```
